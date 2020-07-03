@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Store App"
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.js": "javascriptreact",
+      "*.tsx": "javascriptreact",
+    },
+    "editor.tabSize": 2,
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "javascript.validate.enable": false,
+  }
+}
