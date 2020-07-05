@@ -10,24 +10,24 @@ import {
 } from 'react-native-elements'
 import { useNavigation, useRoute } from '@react-navigation/native'
 
+import ProductResumeProps from '../../../types'
 import React from 'react'
-import ShopItemsProps from '../../../types'
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler'
 
 const screen = Dimensions.get('screen')
 
-const ShopItem: ShopItemProps = (props) => {
+const ProductResume: ProductResumeProps = (props) => {
   const { item } = props
   const { navigate } = useNavigation()
 
   return (
-    <TouchableWithoutFeedback style={styles.container} onPress={() => navigate('Product', { item })}>
+    <TouchableWithoutFeedback style={styles.container} onPress={() => navigate('ProductDetails', { item })}>
       <>
         <View style={styles.itemImageContainer}>
-          <Image
+          {/* <Image
             style={styles.itemImage}
-            source={{ uri: item.image }}
-            resizeMode='cover' />
+            source={require(item.image)}
+            resizeMode='cover' /> */}
         </View>
         <View style={styles.itemBody}>
           <Text style={styles.itemName}>{item.name}</Text>
@@ -75,4 +75,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default ShopItem
+export default ProductResume
