@@ -1,6 +1,6 @@
 import { Dimensions, Platform } from 'react-native'
 
-export default globals = (() => {
+export default Globals = (() => {
 
   const width = Dimensions.get('screen').width
   const height = Dimensions.get('screen').height

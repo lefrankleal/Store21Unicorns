@@ -5,13 +5,13 @@ import {
   StyleSheet,
   View
 } from 'react-native'
-import {Globals, Icon} from '../../config'
+import { Globals, Icon } from '../../config'
 import {
   Image,
   Text
 } from 'react-native-elements'
-import React, { ComponentProps } from 'react'
 
+import React from 'react'
 import ShopItem from './components/ShopItem'
 import products from '../../provider/products'
 
@@ -19,7 +19,7 @@ const screen = Dimensions.get('screen')
 
 const bannerAR = Image.resolveAssetSource(require('../../assets/images/banner.png'))
 
-const Home = () => {
+const Shop = (props) => {
   return (
     <View
       style={styles.scrollView}>
@@ -76,4 +76,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default Home
+export default Shop
