@@ -9,13 +9,15 @@ import {
 } from 'react-native-elements';
 import React,
 { ComponentProps } from 'react'
+import { useNavigation, useRoute } from '@react-navigation/native';
 
 import Icon from '../../config/AdicticIcons';
+import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import globals from '../../config/globals';
 
 const screen = Dimensions.get('screen')
 
-interface Item {
+interface ItemProps {
   id: number
   name: string
   price: number
@@ -23,29 +25,33 @@ interface Item {
   gallery?: string[]
 }
 
-interface ShopItemProps extends ComponentProps {
-  item: Item
+interface ShopItemProps {
+  item: ItemProps
 }
 
-const ShopItem = (props: ShopItemProps) => {
+const ShopItem: ShopItemProps = (props) => {
   const { item } = props
+  const { navigate } = useNavigation()
+
   return (
-    <View style={styles.container}>
-      <View style={styles.itemImageContainer}>
-        <Image
-          style={styles.itemImage}
-          source={{ uri: item.image }}
-          resizeMode='cover' />
-      </View>
-      <View style={styles.itemBody}>
-        <Text style={styles.itemName}>{item.name}</Text>
-        <Icon
-          color={globals.Colors.font.light}
-          size={25}
-          name='save' />
-      </View>
-      <Text h4 style={styles.itemPrice}>${item.price}</Text>
-    </View>
+    <TouchableWithoutFeedback style={styles.container} onPress={() => navigate('Product', { item })}>
+      <>
+        <View style={styles.itemImageContainer}>
+          <Image
+            style={styles.itemImage}
+            source={{ uri: item.image }}
+            resizeMode='cover' />
+        </View>
+        <View style={styles.itemBody}>
+          <Text style={styles.itemName}>{item.name}</Text>
+          <Icon
+            color={globals.Colors.font.light}
+            size={25}
+            name='save' />
+        </View>
+        <Text h4 style={styles.itemPrice}>${item.price}</Text>
+      </>
+    </TouchableWithoutFeedback>
   )
 }
 
