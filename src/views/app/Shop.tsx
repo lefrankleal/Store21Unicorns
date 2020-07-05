@@ -5,15 +5,14 @@ import {
   StyleSheet,
   View
 } from 'react-native'
+import {Globals, Icon} from '../../config'
 import {
   Image,
   Text
 } from 'react-native-elements'
 import React, { ComponentProps } from 'react'
 
-import Icon from '../../config/AdicticIcons'
 import ShopItem from './components/ShopItem'
-import globals from '../../config/globals'
 import products from '../../provider/products'
 
 const screen = Dimensions.get('screen')
@@ -67,7 +66,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Muli-Regular',
     fontWeight: 'normal',
     alignSelf: 'center',
-    color: globals.Colors.font.light,
+    color: Globals.Colors.font.light,
     marginVertical: 10
   },
   itemsList: {
