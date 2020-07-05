@@ -11,9 +11,9 @@ import React,
 { ComponentProps } from 'react'
 import { useNavigation, useRoute } from '@react-navigation/native';
 
-import Icon from '../../config/AdicticIcons';
+import Icon from '../../../config/AdicticIcons';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
-import globals from '../../config/globals';
+import globals from '../../../config/globals';
 
 const screen = Dimensions.get('screen')
 

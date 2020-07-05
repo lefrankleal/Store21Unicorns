@@ -12,7 +12,7 @@ import {
 import React, { ComponentProps } from 'react'
 
 import Icon from '../../config/AdicticIcons'
-import ShopItem from './ShopItem'
+import ShopItem from './components/ShopItem'
 import globals from '../../config/globals'
 import products from '../../provider/products'
 
