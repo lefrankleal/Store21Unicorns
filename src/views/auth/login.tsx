@@ -1,9 +1,5 @@
 import { View } from 'react-native'
 
-interface LoginProps extends ComponentProps {
-
-}
-
 const Login = (props: LoginProps) => {
   return (
     <View>

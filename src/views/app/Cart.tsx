@@ -2,15 +2,11 @@ import { ComponentProps } from 'react'
 import { ScrollView } from 'react-native'
 import { Text } from 'react-native-elements'
 
-interface CartProps extends ComponentProps {
-
-}
-
-const Cart = (props: CartProps) => {
+const Cart = (props) => {
   return (
     <ScrollView
       contentInsetAdjustmentBehavior="automatic">
-        <Text>Cart</Text>
+      <Text>Cart</Text>
     </ScrollView>
   )
 }
