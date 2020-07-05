@@ -9,7 +9,9 @@ import globals from './config/globals'
 export const App = () => {
   return (
     <ThemeProvider theme={globals.Theme}>
-      <SafeAreaView style={{ flexGrow: 1, paddingHorizontal: 20 }}>
+      <SafeAreaView style={{
+        flex: 1
+      }}>
         <MainStack />
       </SafeAreaView>
     </ThemeProvider>
