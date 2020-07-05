@@ -2,18 +2,16 @@ import {
   Dimensions,
   StyleSheet,
   View
-} from 'react-native';
+} from 'react-native'
+import { Globals, Icon } from '../../../config'
 import {
   Image,
   Text
-} from 'react-native-elements';
-import React,
-{ ComponentProps } from 'react'
-import { useNavigation, useRoute } from '@react-navigation/native';
+} from 'react-native-elements'
+import { useNavigation, useRoute } from '@react-navigation/native'
 
-import Icon from '../../../config/AdicticIcons';
-import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
-import globals from '../../../config/globals';
+import React from 'react'
+import { TouchableWithoutFeedback } from 'react-native-gesture-handler'
 
 const screen = Dimensions.get('screen')
 
@@ -45,7 +43,7 @@ const ShopItem: ShopItemProps = (props) => {
         <View style={styles.itemBody}>
           <Text style={styles.itemName}>{item.name}</Text>
           <Icon
-            color={globals.Colors.font.light}
+            color={Globals.Colors.font.light}
             size={25}
             name='save' />
         </View>
@@ -76,7 +74,7 @@ const styles = StyleSheet.create({
   },
   itemName: {
     width: (screen.width / 2) - 57,
-    color: globals.Colors.font.dark,
+    color: Globals.Colors.font.dark,
     fontFamily: 'Muli-ExtraBold',
     textTransform: 'capitalize',
     fontWeight: 'normal',
@@ -84,7 +82,7 @@ const styles = StyleSheet.create({
   },
   itemPrice: {
     width: '100%',
-    color: globals.Colors.font.light,
+    color: Globals.Colors.font.light,
   }
 })
 

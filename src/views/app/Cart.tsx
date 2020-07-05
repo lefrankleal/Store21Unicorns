@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react'
+import React from 'react'
 import { ScrollView } from 'react-native'
 import { Text } from 'react-native-elements'
 

@@ -1,30 +1,29 @@
 import { StyleSheet, View } from 'react-native'
 
-import Auth from '../views/auth/auth'
 import Cart from '../views/app/Cart'
-import Home from '../views/app/Home'
+import Globals from './globals'
 import Icon from './AdicticIcons'
 import { NavigationContainer } from '@react-navigation/native'
 import Product from '../views/app/Product'
 import React from 'react'
-import { Text } from 'react-native-elements';
+import Shop from '../views/app/Shop'
+import { Text } from 'react-native-elements'
 import { createStackNavigator } from '@react-navigation/stack'
-import globals from './globals';
 
 const Stack = createStackNavigator()
-export const MainStack = () => {
+const RootStack = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name='Home'
+          name='Shop'
           options={({ route, navigation }) => ({
             headerTitle: 'Sneakers!!!',
-            headerTitleStyle: homeStyles.headerTitle,
+            headerTitleStyle: shopStyles.headerTitle,
             headerTitleAlign: 'center',
-            headerStyle: homeStyles.headerStyle,
+            headerStyle: shopStyles.headerStyle,
           })}
-          component={Home} />
+          component={Shop} />
         <Stack.Screen
           name='Product'
           options={({ route, navigation }) => ({
@@ -52,7 +51,7 @@ export const MainStack = () => {
   )
 }
 
-const homeStyles = StyleSheet.create({
+const shopStyles = StyleSheet.create({
   headerStyle: {
     height: 70,
   },
@@ -89,6 +88,8 @@ const productStyles = StyleSheet.create({
     fontSize: 24,
   },
   headerSubTitle: {
-    color: globals.Colors.font.light
+    color: Globals.Colors.font.light
   }
 })
+
+export default RootStack
