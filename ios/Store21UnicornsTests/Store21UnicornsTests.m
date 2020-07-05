@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface Store21UniconrnsTests : XCTestCase
+@interface Store21UnicornsTests : XCTestCase
 
 @end
 
-@implementation Store21UniconrnsTests
+@implementation Store21UnicornsTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* Store21UniconrnsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Store21UniconrnsTests.m */; };
-		04D25DD8DAD3ACC1B665CB39 /* libPods-Store21Uniconrns-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BC099867A2B37586374765 /* libPods-Store21Uniconrns-tvOSTests.a */; };
+		00E356F31AD99517003FC87E /* Store21UnicornsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Store21UnicornsTests.m */; };
+		04D25DD8DAD3ACC1B665CB39 /* libPods-Store21Unicorns-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BC099867A2B37586374765 /* libPods-Store21Unicorns-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +16,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* Store21UniconrnsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Store21UniconrnsTests.m */; };
-		4C7D4FB57387E7EAAAF49ED0 /* libPods-Store21Uniconrns-Store21UniconrnsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D1119E41D92FFE3F225697 /* libPods-Store21Uniconrns-Store21UniconrnsTests.a */; };
-		BBA0958058D5B7CAA4C2CFCB /* libPods-Store21Uniconrns.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BBE52F607CBC3EB6B704CD /* libPods-Store21Uniconrns.a */; };
-		CDBE4D674B60F62A2D566D9F /* libPods-Store21Uniconrns-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521B2727A06A106C6552B700 /* libPods-Store21Uniconrns-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* Store21UnicornsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Store21UnicornsTests.m */; };
+		4C7D4FB57387E7EAAAF49ED0 /* libPods-Store21Unicorns-Store21UnicornsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D1119E41D92FFE3F225697 /* libPods-Store21Unicorns-Store21UnicornsTests.a */; };
+		BBA0958058D5B7CAA4C2CFCB /* libPods-Store21Unicorns.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BBE52F607CBC3EB6B704CD /* libPods-Store21Unicorns.a */; };
+		CDBE4D674B60F62A2D566D9F /* libPods-Store21Unicorns-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521B2727A06A106C6552B700 /* libPods-Store21Unicorns-tvOS.a */; };
 		E5C0BA5F61DA43FDBBBCB3A4 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2DD0D1903CC4919A15654BB /* AntDesign.ttf */; };
 		A92BC668F6604913BD926A6F /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B397C5C5D96D4230B871D94A /* Entypo.ttf */; };
 		498BDDC1BC744A18BDB3DD04 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F72E244337D64D7FB176CD39 /* EvilIcons.ttf */; };
@@ -61,45 +61,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Store21Uniconrns;
+			remoteInfo = Store21Unicorns;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Store21Uniconrns-tvOS";
+			remoteInfo = "Store21Unicorns-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* Store21UniconrnsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Store21UniconrnsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* Store21UnicornsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Store21UnicornsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* Store21UniconrnsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Store21UniconrnsTests.m; sourceTree = "<group>"; };
-		06BC099867A2B37586374765 /* libPods-Store21Uniconrns-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Store21Uniconrns-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* Store21Uniconrns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Store21Uniconrns.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Store21Uniconrns/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Store21Uniconrns/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* Store21UnicornsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Store21UnicornsTests.m; sourceTree = "<group>"; };
+		06BC099867A2B37586374765 /* libPods-Store21Unicorns-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Store21Unicorns-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Store21Unicorns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Store21Unicorns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Store21Unicorns/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Store21Unicorns/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Store21Uniconrns/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Store21Uniconrns/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Store21Uniconrns/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Store21Uniconrns-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Store21Uniconrns-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Store21Uniconrns-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Store21Uniconrns-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42185A7D3725523B90B52D54 /* Pods-Store21Uniconrns-Store21UniconrnsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Uniconrns-Store21UniconrnsTests.debug.xcconfig"; path = "Target Support Files/Pods-Store21Uniconrns-Store21UniconrnsTests/Pods-Store21Uniconrns-Store21UniconrnsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		521B2727A06A106C6552B700 /* libPods-Store21Uniconrns-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Store21Uniconrns-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57D1119E41D92FFE3F225697 /* libPods-Store21Uniconrns-Store21UniconrnsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Store21Uniconrns-Store21UniconrnsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80C291097332F28CAB6960B1 /* Pods-Store21Uniconrns-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Uniconrns-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Store21Uniconrns-tvOSTests/Pods-Store21Uniconrns-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		810D3926754DEA1F80B70A15 /* Pods-Store21Uniconrns-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Uniconrns-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Store21Uniconrns-tvOSTests/Pods-Store21Uniconrns-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		850FE0DECBD02F627966F859 /* Pods-Store21Uniconrns.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Uniconrns.release.xcconfig"; path = "Target Support Files/Pods-Store21Uniconrns/Pods-Store21Uniconrns.release.xcconfig"; sourceTree = "<group>"; };
-		93305B0BED4BBE4B81B9244E /* Pods-Store21Uniconrns-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Uniconrns-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Store21Uniconrns-tvOS/Pods-Store21Uniconrns-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		95DAE129F6C4E9D92DDEB505 /* Pods-Store21Uniconrns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Uniconrns.debug.xcconfig"; path = "Target Support Files/Pods-Store21Uniconrns/Pods-Store21Uniconrns.debug.xcconfig"; sourceTree = "<group>"; };
-		C8E310E99C072BADBADA3DED /* Pods-Store21Uniconrns-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Uniconrns-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Store21Uniconrns-tvOS/Pods-Store21Uniconrns-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		D1719227876EE8F5314E3A82 /* Pods-Store21Uniconrns-Store21UniconrnsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Uniconrns-Store21UniconrnsTests.release.xcconfig"; path = "Target Support Files/Pods-Store21Uniconrns-Store21UniconrnsTests/Pods-Store21Uniconrns-Store21UniconrnsTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Store21Unicorns/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Store21Unicorns/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Store21Unicorns/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Store21Unicorns-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Store21Unicorns-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Store21Unicorns-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Store21Unicorns-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42185A7D3725523B90B52D54 /* Pods-Store21Unicorns-Store21UnicornsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Unicorns-Store21UnicornsTests.debug.xcconfig"; path = "Target Support Files/Pods-Store21Unicorns-Store21UnicornsTests/Pods-Store21Unicorns-Store21UnicornsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		521B2727A06A106C6552B700 /* libPods-Store21Unicorns-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Store21Unicorns-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D1119E41D92FFE3F225697 /* libPods-Store21Unicorns-Store21UnicornsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Store21Unicorns-Store21UnicornsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C291097332F28CAB6960B1 /* Pods-Store21Unicorns-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Unicorns-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Store21Unicorns-tvOSTests/Pods-Store21Unicorns-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		810D3926754DEA1F80B70A15 /* Pods-Store21Unicorns-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Unicorns-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Store21Unicorns-tvOSTests/Pods-Store21Unicorns-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		850FE0DECBD02F627966F859 /* Pods-Store21Unicorns.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Unicorns.release.xcconfig"; path = "Target Support Files/Pods-Store21Unicorns/Pods-Store21Unicorns.release.xcconfig"; sourceTree = "<group>"; };
+		93305B0BED4BBE4B81B9244E /* Pods-Store21Unicorns-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Unicorns-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Store21Unicorns-tvOS/Pods-Store21Unicorns-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		95DAE129F6C4E9D92DDEB505 /* Pods-Store21Unicorns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Unicorns.debug.xcconfig"; path = "Target Support Files/Pods-Store21Unicorns/Pods-Store21Unicorns.debug.xcconfig"; sourceTree = "<group>"; };
+		C8E310E99C072BADBADA3DED /* Pods-Store21Unicorns-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Unicorns-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Store21Unicorns-tvOS/Pods-Store21Unicorns-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D1719227876EE8F5314E3A82 /* Pods-Store21Unicorns-Store21UnicornsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Store21Unicorns-Store21UnicornsTests.release.xcconfig"; path = "Target Support Files/Pods-Store21Unicorns-Store21UnicornsTests/Pods-Store21Unicorns-Store21UnicornsTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F2BBE52F607CBC3EB6B704CD /* libPods-Store21Uniconrns.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Store21Uniconrns.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BBE52F607CBC3EB6B704CD /* libPods-Store21Unicorns.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Store21Unicorns.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DD0D1903CC4919A15654BB /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B397C5C5D96D4230B871D94A /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		F72E244337D64D7FB176CD39 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -140,7 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C7D4FB57387E7EAAAF49ED0 /* libPods-Store21Uniconrns-Store21UniconrnsTests.a in Frameworks */,
+				4C7D4FB57387E7EAAAF49ED0 /* libPods-Store21Unicorns-Store21UnicornsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBA0958058D5B7CAA4C2CFCB /* libPods-Store21Uniconrns.a in Frameworks */,
+				BBA0958058D5B7CAA4C2CFCB /* libPods-Store21Unicorns.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDBE4D674B60F62A2D566D9F /* libPods-Store21Uniconrns-tvOS.a in Frameworks */,
+				CDBE4D674B60F62A2D566D9F /* libPods-Store21Unicorns-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,20 +164,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D25DD8DAD3ACC1B665CB39 /* libPods-Store21Uniconrns-tvOSTests.a in Frameworks */,
+				04D25DD8DAD3ACC1B665CB39 /* libPods-Store21Unicorns-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* Store21UniconrnsTests */ = {
+		00E356EF1AD99517003FC87E /* Store21UnicornsTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* Store21UniconrnsTests.m */,
+				00E356F21AD99517003FC87E /* Store21UnicornsTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = Store21UniconrnsTests;
+			path = Store21UnicornsTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -188,7 +188,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Store21Uniconrns */ = {
+		13B07FAE1A68108700A75B9A /* Store21Unicorns */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -199,7 +199,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Store21Uniconrns;
+			name = Store21Unicorns;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -207,10 +207,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				F2BBE52F607CBC3EB6B704CD /* libPods-Store21Uniconrns.a */,
-				57D1119E41D92FFE3F225697 /* libPods-Store21Uniconrns-Store21UniconrnsTests.a */,
-				521B2727A06A106C6552B700 /* libPods-Store21Uniconrns-tvOS.a */,
-				06BC099867A2B37586374765 /* libPods-Store21Uniconrns-tvOSTests.a */,
+				F2BBE52F607CBC3EB6B704CD /* libPods-Store21Unicorns.a */,
+				57D1119E41D92FFE3F225697 /* libPods-Store21Unicorns-Store21UnicornsTests.a */,
+				521B2727A06A106C6552B700 /* libPods-Store21Unicorns-tvOS.a */,
+				06BC099867A2B37586374765 /* libPods-Store21Unicorns-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -225,9 +225,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Store21Uniconrns */,
+				13B07FAE1A68108700A75B9A /* Store21Unicorns */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* Store21UniconrnsTests */,
+				00E356EF1AD99517003FC87E /* Store21UnicornsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A7981A9AC1B6588F096A6587 /* Pods */,
@@ -241,10 +241,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Store21Uniconrns.app */,
-				00E356EE1AD99517003FC87E /* Store21UniconrnsTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Store21Uniconrns-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Store21Uniconrns-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Store21Unicorns.app */,
+				00E356EE1AD99517003FC87E /* Store21UnicornsTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Store21Unicorns-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Store21Unicorns-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,14 +252,14 @@
 		A7981A9AC1B6588F096A6587 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				95DAE129F6C4E9D92DDEB505 /* Pods-Store21Uniconrns.debug.xcconfig */,
-				850FE0DECBD02F627966F859 /* Pods-Store21Uniconrns.release.xcconfig */,
-				42185A7D3725523B90B52D54 /* Pods-Store21Uniconrns-Store21UniconrnsTests.debug.xcconfig */,
-				D1719227876EE8F5314E3A82 /* Pods-Store21Uniconrns-Store21UniconrnsTests.release.xcconfig */,
-				93305B0BED4BBE4B81B9244E /* Pods-Store21Uniconrns-tvOS.debug.xcconfig */,
-				C8E310E99C072BADBADA3DED /* Pods-Store21Uniconrns-tvOS.release.xcconfig */,
-				810D3926754DEA1F80B70A15 /* Pods-Store21Uniconrns-tvOSTests.debug.xcconfig */,
-				80C291097332F28CAB6960B1 /* Pods-Store21Uniconrns-tvOSTests.release.xcconfig */,
+				95DAE129F6C4E9D92DDEB505 /* Pods-Store21Unicorns.debug.xcconfig */,
+				850FE0DECBD02F627966F859 /* Pods-Store21Unicorns.release.xcconfig */,
+				42185A7D3725523B90B52D54 /* Pods-Store21Unicorns-Store21UnicornsTests.debug.xcconfig */,
+				D1719227876EE8F5314E3A82 /* Pods-Store21Unicorns-Store21UnicornsTests.release.xcconfig */,
+				93305B0BED4BBE4B81B9244E /* Pods-Store21Unicorns-tvOS.debug.xcconfig */,
+				C8E310E99C072BADBADA3DED /* Pods-Store21Unicorns-tvOS.release.xcconfig */,
+				810D3926754DEA1F80B70A15 /* Pods-Store21Unicorns-tvOSTests.debug.xcconfig */,
+				80C291097332F28CAB6960B1 /* Pods-Store21Unicorns-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -309,9 +309,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* Store21UniconrnsTests */ = {
+		00E356ED1AD99517003FC87E /* Store21UnicornsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Store21UniconrnsTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Store21UnicornsTests" */;
 			buildPhases = (
 				0626754463C93AF46232A45D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -323,14 +323,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = Store21UniconrnsTests;
-			productName = Store21UniconrnsTests;
-			productReference = 00E356EE1AD99517003FC87E /* Store21UniconrnsTests.xctest */;
+			name = Store21UnicornsTests;
+			productName = Store21UnicornsTests;
+			productReference = 00E356EE1AD99517003FC87E /* Store21UnicornsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Store21Uniconrns */ = {
+		13B07F861A680F5B00A75B9A /* Store21Unicorns */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Store21Uniconrns" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Store21Unicorns" */;
 			buildPhases = (
 				DB42BCC1A39C4AAEBBC32D27 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -343,14 +343,14 @@
 			);
 			dependencies = (
 			);
-			name = Store21Uniconrns;
-			productName = Store21Uniconrns;
-			productReference = 13B07F961A680F5B00A75B9A /* Store21Uniconrns.app */;
+			name = Store21Unicorns;
+			productName = Store21Unicorns;
+			productReference = 13B07F961A680F5B00A75B9A /* Store21Unicorns.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Store21Uniconrns-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Store21Unicorns-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Store21Uniconrns-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Store21Unicorns-tvOS" */;
 			buildPhases = (
 				23CE59724333B6CFA43FB2C2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -363,14 +363,14 @@
 			);
 			dependencies = (
 			);
-			name = "Store21Uniconrns-tvOS";
-			productName = "Store21Uniconrns-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Store21Uniconrns-tvOS.app */;
+			name = "Store21Unicorns-tvOS";
+			productName = "Store21Unicorns-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Store21Unicorns-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Store21Uniconrns-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Store21Unicorns-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Store21Uniconrns-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Store21Unicorns-tvOSTests" */;
 			buildPhases = (
 				35EFA82ECC577B0A89E97959 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -382,9 +382,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Store21Uniconrns-tvOSTests";
-			productName = "Store21Uniconrns-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Store21Uniconrns-tvOSTests.xctest */;
+			name = "Store21Unicorns-tvOSTests";
+			productName = "Store21Unicorns-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Store21Unicorns-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -413,7 +413,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Store21Uniconrns" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Store21Unicorns" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -426,10 +426,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Store21Uniconrns */,
-				00E356ED1AD99517003FC87E /* Store21UniconrnsTests */,
-				2D02E47A1E0B4A5D006451C7 /* Store21Uniconrns-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Store21Uniconrns-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Store21Unicorns */,
+				00E356ED1AD99517003FC87E /* Store21UnicornsTests */,
+				2D02E47A1E0B4A5D006451C7 /* Store21Unicorns-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Store21Unicorns-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -531,7 +531,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Store21Uniconrns-Store21UniconrnsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Store21Unicorns-Store21UnicornsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -553,7 +553,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Store21Uniconrns-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Store21Unicorns-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -589,7 +589,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Store21Uniconrns-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Store21Unicorns-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -611,7 +611,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Store21Uniconrns-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Store21Unicorns-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -663,7 +663,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* Store21UniconrnsTests.m in Sources */,
+				00E356F31AD99517003FC87E /* Store21UnicornsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,7 +689,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* Store21UniconrnsTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* Store21UnicornsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,12 +698,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Store21Uniconrns */;
+			target = 13B07F861A680F5B00A75B9A /* Store21Unicorns */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Store21Uniconrns-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Store21Unicorns-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -715,7 +715,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = Store21Uniconrns;
+			path = Store21Unicorns;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -723,14 +723,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42185A7D3725523B90B52D54 /* Pods-Store21Uniconrns-Store21UniconrnsTests.debug.xcconfig */;
+			baseConfigurationReference = 42185A7D3725523B90B52D54 /* Pods-Store21Unicorns-Store21UnicornsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Store21UniconrnsTests/Info.plist;
+				INFOPLIST_FILE = Store21UnicornsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -740,17 +740,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Store21Uniconrns.app/Store21Uniconrns";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Store21Unicorns.app/Store21Unicorns";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1719227876EE8F5314E3A82 /* Pods-Store21Uniconrns-Store21UniconrnsTests.release.xcconfig */;
+			baseConfigurationReference = D1719227876EE8F5314E3A82 /* Pods-Store21Unicorns-Store21UnicornsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = Store21UniconrnsTests/Info.plist;
+				INFOPLIST_FILE = Store21UnicornsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -760,13 +760,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Store21Uniconrns.app/Store21Uniconrns";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Store21Unicorns.app/Store21Unicorns";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95DAE129F6C4E9D92DDEB505 /* Pods-Store21Uniconrns.debug.xcconfig */;
+			baseConfigurationReference = 95DAE129F6C4E9D92DDEB505 /* Pods-Store21Unicorns.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -776,7 +776,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = Store21Uniconrns/Info.plist;
+				INFOPLIST_FILE = Store21Unicorns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -784,7 +784,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Store21Uniconrns;
+				PRODUCT_NAME = Store21Unicorns;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -793,12 +793,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 850FE0DECBD02F627966F859 /* Pods-Store21Uniconrns.release.xcconfig */;
+			baseConfigurationReference = 850FE0DECBD02F627966F859 /* Pods-Store21Unicorns.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Store21Uniconrns/Info.plist;
+				INFOPLIST_FILE = Store21Unicorns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -806,7 +806,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Store21Uniconrns;
+				PRODUCT_NAME = Store21Unicorns;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -814,7 +814,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93305B0BED4BBE4B81B9244E /* Pods-Store21Uniconrns-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 93305B0BED4BBE4B81B9244E /* Pods-Store21Unicorns-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -825,14 +825,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Store21Uniconrns-tvOS/Info.plist";
+				INFOPLIST_FILE = "Store21Unicorns-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Store21Uniconrns-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Store21Unicorns-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -842,7 +842,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8E310E99C072BADBADA3DED /* Pods-Store21Uniconrns-tvOS.release.xcconfig */;
+			baseConfigurationReference = C8E310E99C072BADBADA3DED /* Pods-Store21Unicorns-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -853,14 +853,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Store21Uniconrns-tvOS/Info.plist";
+				INFOPLIST_FILE = "Store21Unicorns-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Store21Uniconrns-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Store21Unicorns-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -870,7 +870,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 810D3926754DEA1F80B70A15 /* Pods-Store21Uniconrns-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 810D3926754DEA1F80B70A15 /* Pods-Store21Unicorns-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -880,24 +880,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Store21Uniconrns-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Store21Unicorns-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Store21Uniconrns-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Store21Unicorns-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Store21Uniconrns-tvOS.app/Store21Uniconrns-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Store21Unicorns-tvOS.app/Store21Unicorns-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80C291097332F28CAB6960B1 /* Pods-Store21Uniconrns-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 80C291097332F28CAB6960B1 /* Pods-Store21Unicorns-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -907,17 +907,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Store21Uniconrns-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Store21Unicorns-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Store21Uniconrns-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Store21Unicorns-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Store21Uniconrns-tvOS.app/Store21Uniconrns-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Store21Unicorns-tvOS.app/Store21Unicorns-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1038,7 +1038,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Store21UniconrnsTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Store21UnicornsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1047,7 +1047,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Store21Uniconrns" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Store21Unicorns" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1056,7 +1056,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Store21Uniconrns-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Store21Unicorns-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1065,7 +1065,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Store21Uniconrns-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Store21Unicorns-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1074,7 +1074,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Store21Uniconrns" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Store21Unicorns" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

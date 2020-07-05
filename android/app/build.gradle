@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.store21uniconrns"
+        applicationId "com.store21unicorns"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

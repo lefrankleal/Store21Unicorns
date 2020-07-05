@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Store21Uniconrns.app"
-               BlueprintName = "Store21Uniconrns"
-               ReferencedContainer = "container:Store21Uniconrns.xcodeproj">
+               BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
+               BuildableName = "Store21Unicorns-tvOS.app"
+               BlueprintName = "Store21Unicorns-tvOS"
+               ReferencedContainer = "container:Store21Unicorns.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "Store21UniconrnsTests.xctest"
-               BlueprintName = "Store21UniconrnsTests"
-               ReferencedContainer = "container:Store21Uniconrns.xcodeproj">
+               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
+               BuildableName = "Store21Unicorns-tvOSTests.xctest"
+               BlueprintName = "Store21Unicorns-tvOSTests"
+               ReferencedContainer = "container:Store21Unicorns.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,10 +54,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Store21Uniconrns.app"
-            BlueprintName = "Store21Uniconrns"
-            ReferencedContainer = "container:Store21Uniconrns.xcodeproj">
+            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
+            BuildableName = "Store21Unicorns-tvOS.app"
+            BlueprintName = "Store21Unicorns-tvOS"
+            ReferencedContainer = "container:Store21Unicorns.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Store21Uniconrns.app"
-            BlueprintName = "Store21Uniconrns"
-            ReferencedContainer = "container:Store21Uniconrns.xcodeproj">
+            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
+            BuildableName = "Store21Unicorns-tvOS.app"
+            BlueprintName = "Store21Unicorns-tvOS"
+            ReferencedContainer = "container:Store21Unicorns.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

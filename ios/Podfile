@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'Store21Uniconrns' do
-  # Pods for Store21Uniconrns
+target 'Store21Unicorns' do
+  # Pods for Store21Unicorns
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -79,7 +79,7 @@ target 'Store21Uniconrns' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'Store21UniconrnsTests' do
+  target 'Store21UnicornsTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -96,10 +96,10 @@ target 'Store21Uniconrns' do
   end
 end
 
-target 'Store21Uniconrns-tvOS' do
-  # Pods for Store21Uniconrns-tvOS
+target 'Store21Unicorns-tvOS' do
+  # Pods for Store21Unicorns-tvOS
 
-  target 'Store21Uniconrns-tvOSTests' do
+  target 'Store21Unicorns-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
