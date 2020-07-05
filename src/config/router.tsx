@@ -3,7 +3,7 @@ import { StyleSheet, View } from 'react-native'
 
 import Cart from '../views/app/Cart'
 import { NavigationContainer } from '@react-navigation/native'
-import Product from '../views/app/Product'
+import ProductDetails from '../views/app/ProductDetails'
 import React from 'react'
 import Shop from '../views/app/Shop'
 import { Text } from 'react-native-elements'
@@ -24,23 +24,23 @@ export const RootStack = () => {
           })}
           component={Shop} />
         <Stack.Screen
-          name='Product'
+          name='ProductDetails'
           options={({ route, navigation }) => ({
-            headerTitle: ({ }) => <View style={productStyles.header}>
-              <Text style={productStyles.headerTitle}>Sneakers!!!</Text>
-              <Text h4 numberOfLines={1} style={productStyles.headerSubTitle}>{route.params.item.name}</Text>
+            headerTitle: ({ }) => <View style={productDetailsStyles.header}>
+              <Text style={productDetailsStyles.headerTitle}>Sneakers!!!</Text>
+              <Text h4 numberOfLines={1} style={productDetailsStyles.headerSubTitle}>{route.params.item.name}</Text>
             </View>,
-            headerLeft: ({ }) => <View style={productStyles.headerLeft}>
+            headerLeft: ({ }) => <View style={productDetailsStyles.headerLeft}>
               <Icon onPress={() => navigation.goBack()} size={24} name='arrow-left' />
             </View>,
-            headerRight: ({ }) => <View style={productStyles.headerRight}>
+            headerRight: ({ }) => <View style={productDetailsStyles.headerRight}>
               <Icon size={24} name='save' />
               <Icon size={24} name='share' />
             </View>,
             headerTitleAlign: 'center',
-            headerStyle: productStyles.headerStyle
+            headerStyle: productDetailsStyles.headerStyle
           })}
-          component={Product} />
+          component={ProductDetails} />
         <Stack.Screen
           name='Cart'
           options={{ headerShown: false }}
@@ -61,7 +61,7 @@ const shopStyles = StyleSheet.create({
   },
 })
 
-const productStyles = StyleSheet.create({
+const productDetailsStyles = StyleSheet.create({
   headerLeft: {
     flexDirection: 'row',
     marginHorizontal: 10,
@@ -86,6 +86,7 @@ const productStyles = StyleSheet.create({
     fontSize: 24,
   },
   headerSubTitle: {
-    color: Globals.Colors.font.light
+    color: Globals.Colors.font.light,
+    maxWidth: '90%',
   }
 })
