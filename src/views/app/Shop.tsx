@@ -11,8 +11,8 @@ import {
   Text
 } from 'react-native-elements'
 
+import ProductResume from './components/ProductResume'
 import React from 'react'
-import ShopItem from './components/ShopItem'
 import products from '../../provider/products'
 
 const screen = Dimensions.get('screen')
@@ -37,7 +37,7 @@ const Shop = (props) => {
         }
         data={products}
         keyExtractor={item => item.id}
-        renderItem={({ item, index }) => <ShopItem key={index} item={item} />} />
+        renderItem={({ item, index }) => <ProductResume key={index} item={item} />} />
     </View>
   )
 }
