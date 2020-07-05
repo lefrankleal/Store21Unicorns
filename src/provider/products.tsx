@@ -25,7 +25,7 @@ const products = [
   },
   {
     id: 1,
-    name: 'test all the title for this item',
+    name: 'Item 2',
     price: 220,
     image: shoes2.uri,
     gallery: [
@@ -38,7 +38,7 @@ const products = [
   },
   {
     id: 1,
-    name: 'test',
+    name: 'Item 3',
     price: 220,
     image: shoes3.uri,
     gallery: [
@@ -51,7 +51,7 @@ const products = [
   },
   {
     id: 1,
-    name: 'test',
+    name: 'Item 4',
     price: 220,
     image: shoes4.uri,
     gallery: [
@@ -64,7 +64,7 @@ const products = [
   },
   {
     id: 1,
-    name: 'test',
+    name: 'Item 5',
     price: 220,
     image: shoes5.uri,
     gallery: [
@@ -77,7 +77,7 @@ const products = [
   },
   {
     id: 1,
-    name: 'test',
+    name: 'Item 6',
     price: 220,
     image: shoes6.uri,
     gallery: [
