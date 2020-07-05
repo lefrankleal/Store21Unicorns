@@ -1,9 +1,10 @@
 import 'react-native-gesture-handler'
 
-import { Globals, RootStack } from './config'
 import { SafeAreaView, Text } from 'react-native'
 
+import { Globals } from './config'
 import React from 'react'
+import { RootStack } from './config/router'
 import { ThemeProvider } from 'react-native-elements'
 
 export const App = () => {

@@ -1,8 +1,7 @@
+import { Globals, Icon } from './'
 import { StyleSheet, View } from 'react-native'
 
 import Cart from '../views/app/Cart'
-import Globals from './globals'
-import Icon from './AdicticIcons'
 import { NavigationContainer } from '@react-navigation/native'
 import Product from '../views/app/Product'
 import React from 'react'
@@ -11,7 +10,7 @@ import { Text } from 'react-native-elements'
 import { createStackNavigator } from '@react-navigation/stack'
 
 const Stack = createStackNavigator()
-const RootStack = () => {
+export const RootStack = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
@@ -80,7 +79,6 @@ const productStyles = StyleSheet.create({
   },
   header: {
     alignItems: 'center',
-    backgroundColor: 'red',
   },
   headerTitle: {
     fontFamily: 'Muli-ExtraBold',
@@ -91,5 +89,3 @@ const productStyles = StyleSheet.create({
     color: Globals.Colors.font.light
   }
 })
-
-export default RootStack

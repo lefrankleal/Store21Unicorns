@@ -11,21 +11,10 @@ import {
 import { useNavigation, useRoute } from '@react-navigation/native'
 
 import React from 'react'
+import ShopItemsProps from '../../../types'
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler'
 
 const screen = Dimensions.get('screen')
-
-interface ItemProps {
-  id: number
-  name: string
-  price: number
-  image: string
-  gallery?: string[]
-}
-
-interface ShopItemProps {
-  item: ItemProps
-}
 
 const ShopItem: ShopItemProps = (props) => {
   const { item } = props
