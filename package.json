@@ -1,6 +1,11 @@
 {
-  "name": "Store21Uniconrns",
+  "name": "store21Unicorns",
   "version": "0.0.1",
+  "author": {
+    "email": "franklealorg@gmail.com",
+    "name": "Frank Leal",
+    "url": "https://github.com/lefrankleal"
+  },
   "private": true,
   "scripts": {
     "apk": "cd android && ./gradlew assembleRelease && cd app/build/outputs/apk/release && open .",
