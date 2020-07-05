@@ -7,6 +7,6 @@ export interface ProductProps {
   gallery?: string[]
 }
 
-export interface ShopItemProps {
+export interface ProductResumeProps {
   item: ProductProps
 }
