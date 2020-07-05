@@ -57,24 +57,28 @@ export default globals = (() => {
       Text: {
         style: {
           fontSize: 14,
-          color: Colors.font,
-          flexWrap: 'wrap'
+          fontFamily: 'Muli-Regular',
+          fontWeight: 'normal',
         },
         h1Style: {
-          fontSize: 16,
+          fontSize: 30,
+          fontFamily: 'Muli-Regular',
           fontWeight: 'normal'
         },
         h2Style: {
-          fontSize: 18,
+          fontSize: 26,
+          fontFamily: 'Muli-Regular',
           fontWeight: 'normal'
         },
         h3Style: {
-          fontSize: 20,
+          fontSize: 22,
+          fontFamily: 'Muli-Regular',
           fontWeight: 'normal'
         },
         h4Style: {
-          fontSize: 22,
-          fontWeight: 'normal'
+          fontSize: 18,
+          fontFamily: 'Muli-Regular',
+          fontWeight: 'normal',
         },
       },
     }
