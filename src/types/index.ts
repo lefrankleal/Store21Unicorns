@@ -1,3 +1,8 @@
+export interface User {
+  id: number
+  name: string
+  lastName?: string
+}
 
 export interface ProductProps {
   id: number
@@ -5,6 +10,7 @@ export interface ProductProps {
   price: number
   image: string
   gallery?: string[]
+  user: User
 }
 
 export interface ProductResumeProps {
