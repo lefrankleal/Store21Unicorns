@@ -24,10 +24,10 @@ const ProductResume: ProductResumeProps = (props) => {
     <TouchableWithoutFeedback style={styles.container} onPress={() => navigate('ProductDetails', { item })}>
       <>
         <View style={styles.itemImageContainer}>
-          {/* <Image
+          <Image
             style={styles.itemImage}
-            source={require(item.image)}
-            resizeMode='cover' /> */}
+            source={{ uri: item.image }}
+            resizeMode='cover' />
         </View>
         <View style={styles.itemBody}>
           <Text style={styles.itemName}>{item.name}</Text>
