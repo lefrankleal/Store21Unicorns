@@ -8,11 +8,15 @@ export default Globals = (() => {
   const Colors = {
     background: '#FD9595',
     primary: '#FEA0A8',
+    gradient: {
+      light: '#FE9FA7',
+      dark: '#FF7783'
+    },
     font: {
       light: '#8A97AD',
-      dark: '#000000'
+      dark: '#000000',
+      red: '#FEA0A8'
     }
-    // blueRGBA: ((opacity) => { return `rgba(35, 28, 104, ${opacity})` }),
   }
 
   return {
@@ -20,6 +24,38 @@ export default Globals = (() => {
     Theme: {
       colors: {
         primary: Colors.primary,
+      },
+      Button: {
+        containerStyle: {
+          borderRadius: 10
+        },
+        buttonStyle: {
+          height: 50,
+        },
+      },
+      ButtonGroup: {
+        containerStyle: {
+          marginLeft: 0,
+          marginRight: 0,
+          borderWidth: 0
+        },
+        buttonStyle: {
+          backgroundColor: 'transparent'
+        },
+        selectedButtonStyle: {
+          backgroundColor: 'transparent'
+        },
+        selectedTextStyle: {
+          color: Colors.font.dark
+        },
+        textStyle: {
+          fontSize: 20,
+          fontFamily: 'Muli-ExtraBold',
+          color: Colors.font.light
+        },
+        innerBorderStyle: {
+          color: 'transparent'
+        }
       },
       Header: {
         barStyle: Platform.OS === 'ios' ? 'dark-content' : Colors.darkBlue,
@@ -34,7 +70,16 @@ export default Globals = (() => {
         }
       },
       Icon: {
-        color: Colors.font
+        color: Colors.font.dark
+      },
+      Input: {
+        underlineColorAndroid: 'transparent',
+        inputContainerStyle: {
+          height: 50,
+          borderWidth: 1,
+          borderColor: Colors.font.light,
+          borderRadius: 10
+        },
       },
       ListItem: {
         containerStyle: {
