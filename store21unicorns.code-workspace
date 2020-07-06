@@ -8,6 +8,7 @@
   "settings": {
     "files.associations": {
       "*.js": "javascriptreact",
+      "*.ts": "javascriptreact",
       "*.tsx": "javascriptreact",
     },
     "editor.tabSize": 2,
